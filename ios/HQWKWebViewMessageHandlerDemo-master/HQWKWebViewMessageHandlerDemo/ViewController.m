@@ -26,6 +26,7 @@
     [button setTitle:@"WKWebViewMessageHandler" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    NSLog(@"123456789");
     
 }
 
